@@ -1,0 +1,36 @@
+.add{
+  
+    margin-left: max(5vw,25px);
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+}
+.add form{
+    gap:20px;
+
+}
+.image-up img{
+    width: 120px;
+}
+.add-product, .add-prod-desc{
+    width: max(40%,500px);
+}
+.add-product input , .add-prod-desc textarea{
+    padding: 10px;
+}
+.add-price{
+    display: flex;
+    gap: 30px;
+}
+.add-price select, .add-price input{
+    max-width: 120px;
+    padding: 10px;
+}
+.add-button{
+    max-width: 120px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
